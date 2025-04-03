@@ -186,6 +186,43 @@ font-style: italic;
             transform: scale(0.95); 
           }
 
+          .VanVleet{
+            width: 400px;
+            height: 600px;
+            background-color:rgb(248, 11, 3);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px #a4a4a4;
+            margin-bottom: 20px;
+            transition: transform 0.3 ease-in-out;
+            color: aliceblue;
+            }
+            .VanVleet img{
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                margin-left: 45px;
+                border-radius: 20px;
+            }
+        
+            .VanVleet h2{
+                margin-bottom: 20px;
+            }
+        
+            .VanVleet p{
+                font-size: 10px;       
+                
+                }
+        
+                .VanVleet{ border-radius: 20px; 
+                    border: 5px solid #2f3642; 
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+                    overflow: hidden;
+                    transition: all 0.3s ease;}
+        
+                .VanVleet:hover {
+                    transform: scale(0.95); }
+
         .DENVER{
             width: 400px;
             height: 600px;
