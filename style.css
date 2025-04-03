@@ -1,0 +1,266 @@
+/* RESET CSS */
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: 0px;
+
+}
+
+body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100vh; 
+    background-image: url('https://www.vaipradisney.com/blog/wp-content/uploads/2024/08/NBA-basquete-1-780x585.jpg');
+    background-size: cover; 
+   background-attachment: fixed;
+  }
+
+header{
+ height: 100px;
+background-color: darkblue;
+color:azure;
+text-align: center;
+align-content: center;
+font-style: italic;
+}
+
+main{
+flex: 1;
+display: flex;
+justify-content: space-around ;
+align-items: center ;
+padding-top: ;
+flex-wrap: wrap;
+gap: 15px;
+
+
+}
+.card{
+    margin-top: 20px;
+width: 400px;
+height: 600px;
+background-color:rgb(9, 0, 128);
+padding: 15px;
+border-radius: 10px;
+box-shadow: 3px 3px 5px #a4a4a4;
+margin-bottom: 20px;
+color: aliceblue;
+transition: transform 0.3 ease-in-out;
+}
+
+.card .content h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card:hover {
+    transform: scale(0.95); 
+  }
+
+  .card:hover img {
+    filter: brightness(-1.5); 
+    transform: scale(1.05); 
+  }
+
+  .card{ border-radius: 20px; 
+    border: 5px solid #2f3642; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    transition: all 0.3s ease;}
+
+.card img{
+width: 400px;
+height: 300px;
+object-fit: cover;
+border-radius: 20px;
+}
+.card h2{
+margin-bottom: 20px;
+
+}
+.card p{
+font-size: 14px;
+
+}
+
+footer{
+    height: 50px;
+background-color: darkblue;
+color: azure;
+text-align: center;
+align-content: center;
+font-size: 16px;
+font-style: italic;
+}
+
+
+.OKC{
+    width: 400px;
+    height: 600px;
+    background-color:rgb(248, 113, 3);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #a4a4a4;
+    margin-bottom: 20px;
+    color: aliceblue;
+    transition: transform 0.3 ease-in-out;
+    }
+
+    .OKC{ border-radius: 20px; 
+        border: 5px solid #2f3642; 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+        overflow: hidden;
+        transition: all 0.3s ease;}
+    
+
+    .OKC:hover {
+        transform: scale(0.95); 
+      }
+    
+      .OKC:hover img {
+        filter: brightness(-1.5); 
+        transform: scale(1.05); 
+      }
+
+    .OKC img{
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .OKC h2{
+        margin-bottom: 20px;
+    }
+
+    .OKC p{
+        font-size: 15px;
+        
+        }
+
+        .OKC .content h3 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .Houston{
+    width: 400px;
+    height: 600px;
+    background-color:rgb(248, 11, 3);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #a4a4a4;
+    margin-bottom: 20px;
+    transition: transform 0.3 ease-in-out;
+    color: aliceblue;
+    }
+    .Houston img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 45px;
+        border-radius: 20px;
+    }
+
+    .Houston h2{
+        margin-bottom: 20px;
+    }
+
+    .Houston p{
+        font-size: 15px;       
+        
+        }
+
+        .Houston{ border-radius: 20px; 
+            border: 5px solid #2f3642; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+            overflow: hidden;
+            transition: all 0.3s ease;}
+
+        .Houston:hover {
+            transform: scale(0.95); 
+          }
+
+        .DENVER{
+            width: 400px;
+            height: 600px;
+            background-color:rgb(2, 37, 77);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px #a4a4a4;
+            margin-bottom: 20px;
+            transition: transform 0.3 ease-in-out;
+            color: aliceblue;
+            }
+            .DENVER img{
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+              margin-left: 45px;
+              border-radius: 20px;
+                
+            }
+        
+            .DENVER h2{
+                margin-bottom: 20px;
+            }
+        
+            .DENVER p{
+                font-size: 15px;
+                
+                }
+
+                .DENVER{ border-radius: 20px; 
+                    border: 5px solid #2f3642; 
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+                    overflow: hidden;
+                    transition: all 0.3s ease;}
+        
+                .DENVER:hover {
+                    transform: scale(0.95); 
+                  }
+
+                .LAL{
+                    width: 400px;
+                    height: 600px;
+                    background-color:rgb(243, 200, 8);
+                    padding: 15px;
+                    border-radius: 10px;
+                    box-shadow: 3px 3px 5px #a4a4a4;
+                    margin-bottom: 20px;
+                    color: aliceblue;
+                    }
+                    .LAL img{
+                        width: 300px;
+                        height: 300px;
+                        object-fit: cover;
+                      margin-left: 45px;
+                      border-radius: 20px;
+                    }
+                
+                    .LAL h2{
+                        margin-bottom: 20px;
+                    }
+                
+                    .LAL p{
+                        font-size: 15px;
+                        
+                        }
+                        .LAL{ border-radius: 20px; 
+                            border: 5px solid #2f3642; 
+                            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+                            overflow: hidden;
+                            transition: all 0.3s ease;}
+                
+                        .LAL:hover {
+                            transform: scale(0.95); 
+                          }
+
+
+        
